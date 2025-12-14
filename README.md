@@ -38,8 +38,6 @@ sdenv是一个javascript运行时补环境框架，与github上其它补环境�
 1. npm安装node-gyp报错：请确保操作系统有c++编译环境与python环境，报错示例（感谢用户风流小混沌提供报错图片）:
 ![npm安装报错](./static/install-error.jpeg)
 2. 安装缓慢及canvas报错(**基本都是网络问题**)：由于canvas安装会优先从github获取现成的包，因此请在安装前先设置代理或者其它国内源，如果安装仍然失败请使用npm官方源+代理方式重新尝试；
-3. example样例执行报错sdenv路径不存在：请先看文档[example readme](./example/readme.md)，报错示例（感谢用户mochazi提供报错图片）:
-![example路径报错](./static/example-path-error.png)
 
 注意：canvas安装失败不会中断安装，但是在运行时，如果网页代码中有调用canvas相关API会报错，如有使用canvas相关api请务必确认安装成功！
 
